@@ -38,5 +38,8 @@ v <- 12.55
 w <- c(4L,6L,9L)
 u <- c(3,2,1,"bus")
 u <- as.factor(u)
-
-               
+r <- array(data=1:30,nrow=4,ncol=3,nlevels=2)
+m <- matrix(1:10,nrow=5,ncol=2)               
+#insert anwer later
+"ex" <- m[4,1]
+#insert answer later
