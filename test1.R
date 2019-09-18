@@ -32,3 +32,11 @@ g
 #Nan is given when the value asked for is not a number. the most common case is 
 0/0
 #NA is used when some of the values in a vector or unknown, useful when compiling data
+animal.choice <- function(x){if(x <= 3)"giraffe" else if(x<=6)"kangaroo" else if (x <=10)"rhino" else "bird"}
+q <- "bubble"
+v <- 12.55
+w <- c(4L,6L,9L)
+u <- c(3,2,1,"bus")
+u <- as.factor(u)
+
+               
