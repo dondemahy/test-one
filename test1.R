@@ -38,11 +38,11 @@ v <- 12.55
 w <- c(4L,6L,9L)
 u <- c(3,2,1,"bus")
 u <- as.factor(u)
-r <- array(data=1:30,nrow=4,ncol=3,nlevels=2)
+r <- array(1:24, c(3,4,2))
 m <- matrix(1:10,nrow=5,ncol=2)               
-#insert anwer later
+#an array can be separated into multiple levels or "sheets" and a matrix may not
 "ex" <- m[4,1]
-#insert answer later
+"why" <- r[2,2,2]
 load("C:/Users/Donald/Desktop/R Stuff/test1_data.Rdata")
 nrow(d)
 ncol(d)
