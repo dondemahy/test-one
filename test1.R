@@ -43,3 +43,12 @@ m <- matrix(1:10,nrow=5,ncol=2)
 #insert anwer later
 "ex" <- m[4,1]
 #insert answer later
+load("C:/Users/Donald/Desktop/R Stuff/test1_data.Rdata")
+nrow(d)
+ncol(d)
+class(d$transect.id)
+str(d)
+#this data set consists of integers, which are whole numbers, characters which are letters or non number symbols, factors which are vectors of multiple levels, numerics which are number values, and POSIXct which is used for time
+"tow" <- as.factor(d$tow)
+"haul" <- as.integer(d$haul)
+d$sw.density = NULL
